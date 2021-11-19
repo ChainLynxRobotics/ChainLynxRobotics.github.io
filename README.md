@@ -1,2 +1,2 @@
 # ChainLynxRobotics.github.io
-Repository hosting team website through github pages
+Repository hosting team website through GitHub pages
