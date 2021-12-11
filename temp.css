@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Cabin";
+  src: url("Cabin-regular.ttf") format("truetype");
+}
+body {
+  background-color: #696969;
+    padding: 10%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+    font-family: "Cabin";
+  font-size: 50px;
+}
+
+  
