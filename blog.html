@@ -17,27 +17,27 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
           <li class="nav-item"> <a class="nav-link" href="about.html">About Us</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="/blog">Blog</a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="/blog">Blog <span class="sr-only">(current)</span></a> </li>
         <li class="nav-item"> <a class="nav-link" href="sponsors.html">Our Sponsors</a> </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="robot.html">Our Robot</a> 
-              <a class="dropdown-item  active" href="photos.html">Photo Gallery<span class="sr-only">(current)</span></a> 
+              <a class="dropdown-item active" href="robot.html">Our Robot<span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="photos.html">Photo Gallery</a> 
             </div>
           </li>
         </ul>
       </div>
     </nav>
     <header>
-      <div class="jumbotron">
+      <div class="jumbotron" style="padding-top: 3rem; padding-bottom: 0;">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h1 class="text-center">Team Photos</h1>
-              <p class="text-center">(insert description here)</p>
+              <h1 class="text-center">Blog Posts</h1>
+              <h4 class="text-center">Here is where the build process will be documented, check here regularly for more information on the team!</h4>
               <p>&nbsp;</p>
             </div>
           </div>
@@ -47,15 +47,40 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 mb-4 mt-2 text-center">
-            <h2>Section Header</h2>
-          </div>
-        </div>
-        <div class="row">
           <div class="text-center">
-              <picture><img src="images/photospage/competition.jpg" class="col-12"/></picture>
-              <h5>this is from a competition :)</h5>
-              <p>&nbsp;</p>
+              <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-1"></div>
+                <div id="robotgallery" class="carousel slide col-12" data-interval="false">
+  <ol class="carousel-indicators">
+    <li data-target="#robotgallery" data-slide-to="0" class="active"></li>
+    <li data-target="#robotgallery" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner" style="text-align: center; height: 100%; width: 80vw;">
+    <div class="carousel-item active">
+      <div class="embed-responsive embed-responsive-1by1">
+        <object data="images/blog/JAN-29.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf"></object>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-1by1">
+        <object data="images/blog/JAN-29.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf"></object>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#robotgallery" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#robotgallery" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+            </div>
+            </div>
+</div>
+      </section>
             </div>
           </div>    
       </div>
