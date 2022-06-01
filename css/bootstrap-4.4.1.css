@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #AEAEAE;
   --gray-dark: #707070;
-  --primary: #007bff;
+  --primary: #EBEBEB;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -6766,7 +6766,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #EBEBEB !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
